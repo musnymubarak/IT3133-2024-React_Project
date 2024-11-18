@@ -1,0 +1,1 @@
+The IT development committee of the University of Vavuniya is expected to create an online students’ information portal. They are willing to hire talented IT students to be part of the development team.
