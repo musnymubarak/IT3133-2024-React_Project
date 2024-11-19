@@ -1,6 +1,8 @@
 // App.js
 import React, { useState } from 'react';
 import './Assets/css/compo.css'
+import { students } from './data/StudentsDb'
+import StudentTable from './Components/StudentTable';
 
 function App() {
   const [fontSize, setFontSize] = useState('medium'); 
@@ -22,7 +24,9 @@ function App() {
 
       <tbody>
         <tr>
-          <td></td>
+          <td>
+            <StudentTable students={students}/>
+          </td>
         </tr>
       </tbody>
     </div>
