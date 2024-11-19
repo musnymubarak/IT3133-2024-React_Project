@@ -24,7 +24,7 @@ export default function Profile(props){
                 <td>Address : {props.stu.city+","+props.stu.country}</td>
             </tr>
             <tr>
-                <td>Skills : {props.stu.sills.map(skill=>skill+=", ")}</td>
+                <td>Skills : {props.stu.skills.map(skill=>skill+=", ")}</td>
             </tr>
         </table>
         </>

@@ -5,7 +5,7 @@ import { students } from './data/StudentsDb'
 import StudentTable from './Components/StudentTable';
 
 function App() {
-  const [fontSize, setFontSize] = useState('small');
+  const [fontSize, setFontSize] = useState('medium');
 
   const handleFontSizeChange = (size) => {
     setFontSize(size);
