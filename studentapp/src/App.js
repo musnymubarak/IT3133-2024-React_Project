@@ -21,6 +21,7 @@ function App() {
         <button onClick={() => handleFontSizeChange('medium')}>M</button>
         <button onClick={() => handleFontSizeChange('large')}>L</button>
       </div>
+      <hr/>
 
       <tbody>
         <tr>
